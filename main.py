@@ -3,7 +3,7 @@ from problema_combinatorio import *
 from IndovinaOperazioni import *
 
 
-problema = IndovinaOperazioni([60, 12, 8, 2, 9], 0)
+problema = IndovinaOperazioni([5, 4, 3, 2, 0], 8)
 problema.presentati()
 #print(problema.Soluzione())
 problema.SoluzionePerEnumerazione()

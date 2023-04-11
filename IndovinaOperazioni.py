@@ -18,6 +18,9 @@ class IndovinaOperazioni(ProblemaCombinatorio):
         self.universo = Universo([somma, sottrazione, divisione, moltiplicazione], self.operazioni)
 
     def CheckProprietà(self, espressione):
+        risultato = CalcolaEspressione(espressione)
+        if risultato == None:
+            return False 
         if (float(CalcolaEspressione(espressione)) == float(self.risultato)):
             print("\ntrovato!,  '" + StringaVettore(espressione) + "'  rispetta il vincolo( =" + str(self.risultato) +" )\n ")
             return True

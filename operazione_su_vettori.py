@@ -1,14 +1,21 @@
 def somma(a,b):
+    if ((a == None) | (b == None)):
+        return None
     return a + b
-somma.__str__ = lambda : "+"
-
 def sottrazione(a,b):
+    if ((a == None) | (b == None)):
+        return None
     return a - b
 
 def moltiplicazione(a,b):
+    if ((a == None) | (b == None)):
+        return None
     return a * b
 
 def divisione(a, b):
+    if ((a == None) | (b == None)):
+        return None
+    if (b==0): return None
     return a/b
 
 def exec_operazione(vettore, indiceoperazione):
