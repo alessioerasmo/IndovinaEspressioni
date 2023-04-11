@@ -12,6 +12,7 @@ However, the time of the solution may diverge pretty quickly for too long expres
 That's because the algorithm only searches the right answers between all the possible answers:
 
 Each hole has to be to filled up with 1 out of 4 possibilities (+,-,*,/), these four possibilities must be repeated for all the n holes.
-So, in the worst case the check ends after 4 to te power of n checks O(4^n) = O(2^2n) = O(2^n)
+So, in the worst case the check ends after 4 to the power of n checks O(4^n) = O(2^2n) = O(2^n)
 
 In other words, the time grows exponentially to the number of the operations to guess.
+(code and prints in italian)
