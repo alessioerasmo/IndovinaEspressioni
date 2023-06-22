@@ -1,11 +1,12 @@
 # IndovinaEspressioni
 
-This python library allows to find solutions in those expressions where you have to fill up with the correct operations.<b>
+This python library allows to find solutions to those expressions where you have to fill up with the correct operations.<b>
 
-  As exmaple, given that expression:
+  For instance, 
+  given that expression:
     5 [] 4 [] 3 [] 2 [] 1 = 8
 
-  the program finds the correct operation in order to fill all the gaps:
+  the program finds the correct operation in order to fill all the gaps and satisfy the equation:
     5 [ + ] 4 [ - ] 3 [ + ] 2 [ / ] 1 = 8
 
 However, the time of the solution may diverge pretty quickly for too long expressions. 
